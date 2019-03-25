@@ -1,8 +1,8 @@
 # Screenshots
 
-![timerscreen_running](https://user-images.githubusercontent.com/20628545/54947932-ccd9c780-4f3b-11e9-83ca-9a2d247cfbe9.png)
-![mainform_booted](https://user-images.githubusercontent.com/20628545/54947934-cd725e00-4f3b-11e9-9743-d63d343e9072.png)
-![mainform_running](https://user-images.githubusercontent.com/20628545/54947937-ce0af480-4f3b-11e9-925d-3d78d4e6cb7d.png)
+![timerscreen_running](https://user-images.githubusercontent.com/20628545/54948778-ca786d00-4f3d-11e9-88b4-7f4870c01117.png)
+![mainform_booted](https://user-images.githubusercontent.com/20628545/54948780-cb110380-4f3d-11e9-9b09-9812ea1addd7.png)
+![mainform_running](https://user-images.githubusercontent.com/20628545/54948782-cba99a00-4f3d-11e9-8e84-f34f68f88f58.png)
 
 
 
