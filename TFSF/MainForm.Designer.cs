@@ -77,9 +77,9 @@
             this.chkKeepSettings.Location = new System.Drawing.Point(36, 158);
             this.chkKeepSettings.Margin = new System.Windows.Forms.Padding(4);
             this.chkKeepSettings.Name = "chkKeepSettings";
-            this.chkKeepSettings.Size = new System.Drawing.Size(345, 22);
+            this.chkKeepSettings.Size = new System.Drawing.Size(273, 22);
             this.chkKeepSettings.TabIndex = 9;
-            this.chkKeepSettings.Text = "Einstellungen nach Stop oder Zeitablauf behalten";
+            this.chkKeepSettings.Text = "hold settings after time elapse or stop";
             this.chkKeepSettings.UseVisualStyleBackColor = true;
             this.chkKeepSettings.CheckedChanged += new System.EventHandler(this.chkKeepSettings_CheckedChanged);
             // 
@@ -89,9 +89,9 @@
             this.Sekunden.Location = new System.Drawing.Point(214, 111);
             this.Sekunden.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Sekunden.Name = "Sekunden";
-            this.Sekunden.Size = new System.Drawing.Size(74, 18);
+            this.Sekunden.Size = new System.Drawing.Size(67, 18);
             this.Sekunden.TabIndex = 6;
-            this.Sekunden.Text = "Sekunden";
+            this.Sekunden.Text = "Seconds";
             // 
             // Minuten
             // 
@@ -101,7 +101,7 @@
             this.Minuten.Name = "Minuten";
             this.Minuten.Size = new System.Drawing.Size(60, 18);
             this.Minuten.TabIndex = 5;
-            this.Minuten.Text = "Minuten";
+            this.Minuten.Text = "Minutes";
             // 
             // Stunden
             // 
@@ -109,9 +109,9 @@
             this.Stunden.Location = new System.Drawing.Point(214, 39);
             this.Stunden.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Stunden.Name = "Stunden";
-            this.Stunden.Size = new System.Drawing.Size(62, 18);
+            this.Stunden.Size = new System.Drawing.Size(49, 18);
             this.Stunden.TabIndex = 4;
-            this.Stunden.Text = "Stunden";
+            this.Stunden.Text = "Hours";
             // 
             // txtSeconds
             // 
@@ -150,12 +150,12 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(32, 39);
+            this.label1.Location = new System.Drawing.Point(60, 39);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 18);
+            this.label1.Size = new System.Drawing.Size(66, 18);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Zeit setzen:";
+            this.label1.Text = "Set time:";
             // 
             // btnStop
             // 
@@ -228,14 +228,14 @@
             // toolStripStatusLabel1
             // 
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(54, 17);
-            this.toolStripStatusLabel1.Text = "gestoppt";
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(50, 17);
+            this.toolStripStatusLabel1.Text = "stopped";
             // 
             // toolStripStatusLabel3
             // 
             this.toolStripStatusLabel3.Name = "toolStripStatusLabel3";
-            this.toolStripStatusLabel3.Size = new System.Drawing.Size(30, 17);
-            this.toolStripStatusLabel3.Text = "Zeit:";
+            this.toolStripStatusLabel3.Size = new System.Drawing.Size(37, 17);
+            this.toolStripStatusLabel3.Text = "Time:";
             // 
             // toolStripStatusLabel2
             // 
@@ -262,7 +262,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MainForm";
             this.Opacity = 0.8D;
-            this.Text = "[FST] Hauptfenster";
+            this.Text = "[FST] Main windows";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.sStrip.ResumeLayout(false);

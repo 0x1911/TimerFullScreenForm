@@ -12,6 +12,11 @@ namespace TFSF
         private bool paused; // State of the timer [PAUSED/WORKING].
         private bool keepSettings = true; // keep settings after timer finished for next run
         private static TimerForm timerForm = new TimerForm();
+        //phrases
+        private string sStarted = "started";
+        private string sPaused = "paused";
+        private string sRunning = "running";
+        private string sFinished = "finished";
         #endregion
 
         public MainForm()
@@ -30,7 +35,7 @@ namespace TFSF
 
                 if (hours < 1 && minutes < 1 && seconds < 1)
                 {
-                    MessageBox.Show("Mindestens eine Zahl eingeben!");
+                    MessageBox.Show("We need at least one number!");
                     return;
                 }
             }
@@ -42,7 +47,7 @@ namespace TFSF
             btnStart.Enabled = false;
             btnPause.Enabled = true;
             btnStop.Enabled = true;
-            UpdateStatusStrip("gestartet");
+            UpdateStatusStrip(sStarted);
         }
 
         private void btnPause_Click(object sender, EventArgs e)
@@ -53,7 +58,7 @@ namespace TFSF
             btnStart.Enabled = true;
             btnPause.Enabled = false;
             btnStop.Enabled = true;
-            UpdateStatusStrip("pausiert");
+            UpdateStatusStrip(sPaused);
         }
         private void btnStop_Click(object sender, EventArgs e)
         {
@@ -74,7 +79,7 @@ namespace TFSF
             }
             else
             {
-                UpdateStatusStrip("läuft..");
+                UpdateStatusStrip(sRunning + "..");
                 // Else continue counting.
                 if (seconds < 1)
                 {
@@ -163,7 +168,7 @@ namespace TFSF
 
             timerForm.SetTimerLabel(0, 0, 0);
             UpdateTimerStrip("00:00:00");
-            UpdateStatusStrip("fertig");
+            UpdateStatusStrip(sFinished);
         }
     }
 }
