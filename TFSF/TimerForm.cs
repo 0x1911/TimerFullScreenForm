@@ -37,8 +37,6 @@ namespace TFSF
                 lblTimer.Text = seconds.ToString();
                 return true;
             }
-
-            return false;
         }
 
         /// <summary>
